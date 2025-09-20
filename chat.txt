@@ -3,3 +3,4 @@
 Added Navbar
 
 Added Footer with logo
+changed the color of footer to brown
