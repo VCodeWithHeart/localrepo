@@ -2,3 +2,4 @@
 
 Added Navbar
 
+Added Footer
