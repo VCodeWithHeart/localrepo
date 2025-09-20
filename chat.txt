@@ -3,3 +3,4 @@
 Added Navbar
 
 changed the color of footer to brown
+Added the main section
