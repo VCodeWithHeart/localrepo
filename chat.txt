@@ -2,4 +2,4 @@
 
 Added Navbar
 
-Added Footer
+changed the color of footer to brown
