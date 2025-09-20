@@ -1,4 +1,4 @@
 // CHAT MESSAGING APP
 
-
+Added Navbar
 
