@@ -2,4 +2,4 @@
 
 Added Navbar
 
-Added Footer
+Added Footer with logo
