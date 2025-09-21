@@ -6,3 +6,4 @@ changed the color of footer to brown
 Added the main section
 Added hero image in main section
 Added animation in hero page
+Added About Page
