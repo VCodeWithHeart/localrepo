@@ -7,3 +7,4 @@ Added the main section
 Added hero image in main section
 Added animation in hero page
 Added About Page
+Added contact us page
