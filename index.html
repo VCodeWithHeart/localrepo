@@ -3,25 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Qunitoz Foodz</title>
+    <title>Qunitoz Foodz - Delicious Fast Food</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <!-- Use system fonts for best performance -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Navbar -->
     <header class="navbar">
         <div class="container">
-            <a href="#" class="logo">
+            <a href="#home" class="logo">
                 <span class="logo-accent">Qunitoz</span> Foodz
             </a>
             
             <nav class="nav-menu">
                 <ul>
-                    <li><a href="#" class="active">Home</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Offers</a></li>
-                    <li><a href="#">Catering</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#offers">Offers</a></li>
+                    <li><a href="#catering">Catering</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             
@@ -49,10 +49,362 @@
         </div>
     </header>
 
-    <!-- Page content would go here -->
-    <main class="content">
-        <h1>Welcome to Qunitoz Foodz</h1>
-        <p>Your delicious journey starts here...</p>
-    </main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Fast Food Made Right</h1>
+                <p>Delicious, fresh, and made with love - your favorite meals delivered fast</p>
+                <a href="#menu" class="btn">Explore Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Menu</h2>
+            </div>
+            
+            <div class="menu-grid">
+                <!-- Pizza Category -->
+                <div class="menu-category">
+                    <div class="category-img">🍕</div>
+                    <div class="category-content">
+                        <h3>Pizza</h3>
+                        <p>Hand-tossed crusts with fresh ingredients and signature sauces</p>
+                        <div class="category-items">
+                            <div class="menu-item">
+                                <span class="item-name">Margherita</span>
+                                <span class="item-price">$12.99</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">Pepperoni</span>
+                                <span class="item-price">$14.99</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">Vegetarian</span>
+                                <span class="item-price">$13.99</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">Hawaiian</span>
+                                <span class="item-price">$15.99</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Burger Category -->
+                <div class="menu-category">
+                    <div class="category-img">🍔</div>
+                    <div class="category-content">
+                        <h3>Burgers</h3>
+                        <p>Juicy patties with fresh buns and your choice of toppings</p>
+                        <div class="category-items">
+                            <div class="menu-item">
+                                <span class="item-name">Classic Burger</span>
+                                <span class="item-price">$10.99</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">Cheeseburger</span>
+                                <span class="item-price">$12.99</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">Bacon Burger</span>
+                                <span class="item-price">$14.99</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">Veggie Burger</span>
+                                <span class="item-price">$11.99</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tacos Category -->
+                <div class="menu-category">
+                    <div class="category-img">🌮</div>
+                    <div class="category-content">
+                        <h3>Tacos</h3>
+                        <p>Authentic Mexican flavors with fresh ingredients</p>
+                        <div class="category-items">
+                            <div class="menu-item">
+                                <span class="item-name">Chicken Tacos</span>
+                                <span class="item-price">$11.99</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">Beef Tacos</span>
+                                <span class="item-price">$12.99</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">Fish Tacos</span>
+                                <span class="item-price">$13.99</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">Veggie Tacos</span>
+                                <span class="item-price">$10.99</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Fries Category -->
+                <div class="menu-category">
+                    <div class="category-img">🍟</div>
+                    <div class="category-content">
+                        <h3>Fries</h3>
+                        <p>Crispy golden fries with your choice of seasoning</p>
+                        <div class="category-items">
+                            <div class="menu-item">
+                                <span class="item-name">Regular Fries</span>
+                                <span class="item-price">$3.99</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">Cheese Fries</span>
+                                <span class="item-price">$5.99</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">Bacon Fries</span>
+                                <span class="item-price">$6.99</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">Sweet Potato</span>
+                                <span class="item-price">$4.99</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Drinks Category -->
+                <div class="menu-category">
+                    <div class="category-img">🥤</div>
+                    <div class="category-content">
+                        <h3>Drinks</h3>
+                        <p>Refreshing beverages to complement your meal</p>
+                        <div class="category-items">
+                            <div class="menu-item">
+                                <span class="item-name">Soda</span>
+                                <span class="item-price">$2.99</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">Iced Tea</span>
+                                <span class="item-price">$3.49</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">Lemonade</span>
+                                <span class="item-price">$3.99</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">Milkshake</span>
+                                <span class="item-price">$4.99</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Specials Category -->
+                <div class="menu-category">
+                    <div class="category-img">🔥</div>
+                    <div class="category-content">
+                        <h3>Specials</h3>
+                        <p>Seasonal and limited-time offerings</p>
+                        <div class="category-items">
+                            <div class="menu-item">
+                                <span class="item-name">Burger & Fries</span>
+                                <span class="item-price">$15.99</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">Pizza & Drink</span>
+                                <span class="item-price">$18.99</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">Taco Combo</span>
+                                <span class="item-price">$16.99</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">Family Meal</span>
+                                <span class="item-price">$39.99</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Offers Section -->
+    <section id="offers" class="section offers-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Special Offers</h2>
+            </div>
+            
+            <div class="section-content">
+                <div class="section-card">
+                    <h3>Weekend Special</h3>
+                    <p>Buy one burger, get one free on weekends! Just show this offer at checkout.</p>
+                    <a href="#" class="btn">Redeem Now</a>
+                </div>
+                
+                <div class="section-card">
+                    <h3>Family Deal</h3>
+                    <p>Get 20% off on family meals when you order 4 or more items. Perfect for gatherings!</p>
+                    <a href="#" class="btn">Order Now</a>
+                </div>
+                
+                <div class="section-card">
+                    <h3>Student Discount</h3>
+                    <p>Show your student ID and get 15% off your entire order. Valid with ID only.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catering Section -->
+    <section id="catering" class="section catering-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Event Catering</h2>
+            </div>
+            
+            <div class="section-content">
+                <div class="section-card">
+                    <h3>Corporate Events</h3>
+                    <p>Impress your clients with our premium catering service. We handle everything from setup to cleanup.</p>
+                    <a href="#" class="btn">Get Quote</a>
+                </div>
+                
+                <div class="section-card">
+                    <h3>Parties & Gatherings</h3>
+                    <p>From birthdays to family reunions, we provide delicious food that everyone will love.</p>
+                    <a href="#" class="btn">Plan Event</a>
+                </div>
+                
+                <div class="section-card">
+                    <h3>Custom Menus</h3>
+                    <p>Tailor your menu to fit any dietary needs or preferences. We work with you to create the perfect menu.</p>
+                    <a href="#" class="btn">Design Menu</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+            </div>
+            
+            <div class="section-content">
+                <div class="section-card">
+                    <h3>Visit Us</h3>
+                    <p>123 Food Street, Culinary District</p>
+                    <p>Open daily: 11am - 10pm</p>
+                    <a href="#" class="btn">Get Directions</a>
+                </div>
+                
+                <div class="section-card">
+                    <h3>Call Us</h3>
+                    <p>(555) 123-4567</p>
+                    <p>Mon-Fri: 9am-10pm, Sat-Sun: 10am-11pm</p>
+                    <a href="tel:5551234567" class="btn">Call Now</a>
+                </div>
+                
+                <div class="section-card">
+                    <h3>Online Inquiry</h3>
+                    <p>Have questions? Send us a message and we'll get back to you within 24 hours.</p>
+                    <a href="#" class="btn">Send Message</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Qunitoz Foodz</h3>
+                    <p>Delivering delicious fast food experiences since 2010. Made with fresh ingredients and served with a smile.</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#offers">Specials</a></li>
+                        <li><a href="#catering">Catering</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Opening Hours</h3>
+                    <ul>
+                        <li>Monday - Friday: 11am - 10pm</li>
+                        <li>Saturday: 10am - 11pm</li>
+                        <li>Sunday: 10am - 10pm</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">TikTok</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Qunitoz Foodz. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.nav-menu').classList.toggle('active');
+        });
+        
+        // Close mobile menu when clicking a nav link
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.querySelector('.mobile-menu-btn').classList.remove('active');
+                document.querySelector('.nav-menu').classList.remove('active');
+            });
+        });
+        
+        // Highlight active section in navbar
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('.nav-menu a');
+        
+        window.addEventListener('scroll', () => {
+            let current = '';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= (sectionTop - sectionHeight / 3)) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
 </body>
 </html>
